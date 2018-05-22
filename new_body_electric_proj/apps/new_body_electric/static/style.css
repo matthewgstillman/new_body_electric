@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(#fedd17, #fdd10b, #fad10c, #ffa43b, #ff843f, #f84938, #fe4f3d, #fe4c40, #f42a39, #ee343c, #d9333b, #8d3639, #442b31);
+    color:#F9A01B;
+}
+
+.wrapper{
+    width: 95%;
+}
+
+
+.container{
+     background-color: lightgrey;
+     color:black;
+     border-radius: 2%;
+     margin-bottom: 10px;
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    /*border-radius: 5%;
+    border: 1px solid palegoldenrod;*/
+}
+
+.container h1{
+    text-align: center;
+    font-family: cassandraTwo;
+}
+
+@font-face{
+    font-family: 'cassandraTwo';
+    src:
+        /*local('../fonts/CassandraTwo')format('truetype'),*/
+        url('../fonts/CassandraTwo')format('truetype');
+}
+
+.container h2{
+    font-family: cassandraTwo;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fb_img{
+    border-radius: 5%;
+    border: 1px solid palegoldenrod;
+}
+
+/*.wrapper{
+    border-radius: 10%;
+    border: 1px solid palegoldenrod;
+}*/
+
+/*.ig_img{
+    border-radius: 10%;
+    border: 1px solid palegoldenrod;
+}*/
+
+.logo_img{
+    border-radius: 5%;
+    /*border: 1px solid palegoldenrod;*/
+}
+
+a{
+    color: black;
+}
+
+.insta{
+    border-radius: 5%;
+}
+
+email_link{
+    color: #f84938;
+}
+
+li a{
+    color:#F9A01B;
+}
+
+
+.white_text{
+    color: white;
+}
+
+.white_text p{
+    color: white;
+}
+
+.white-space{
+    color: white;
+}
+

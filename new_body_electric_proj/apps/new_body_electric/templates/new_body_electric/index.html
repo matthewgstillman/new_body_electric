@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NEW BODY ELECTRIC</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("h2").hover(function(){
+                $(this).css("background-color", "#40b4c5");
+                }, function(){
+                $(this).css("background-color", "#ff843f");
+            });
+        });
+        </script>
+        </head>
+        <body>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+        <br>
+        <br>
+        <div class="container">
+            <br>
+            <br>
+            {% load staticfiles %}
+            <img class="logo_img" src= {% static "new_body_electric_logo.jpg" %} alt="New Body Electric Logo">
+            <br>
+            <br>
+            <h1>Connect With Us</h1>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                <h2 class="insta">Instagram</h2>
+                <br>
+                <!-- InstaWidget -->
+                <a href="https://instawidget.net/v/user/newbodyelectric" id="link-394f5f19054e12f3dc82e633dd72b28c27f975f4e516ad94ec7c2198988ef1fd">@newbodyelectric</a>
+                <script src="https://instawidget.net/js/instawidget.js?u=394f5f19054e12f3dc82e633dd72b28c27f975f4e516ad94ec7c2198988ef1fd&width=350px"></script>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Spotify</h2>
+                    <br>
+                    <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3h0OzibApOQzdvIGPEVavo&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                    <br>
+                    <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1vfmDnXCdy7iyCjgjNX6fU" width="350" height="445" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Facebook</h2>
+                    <br>
+                    {% load staticfiles %}
+                    <img class="fb_img" src= {% static "nbe_fb_logo.png" %} alt="New Body Electric Facebook Logo" height="330" width="340">
+                    <br>
+                    <br>
+                    <div class="fb-like" data-href="https://www.facebook.com/newbodyelectric/" data-width="350" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h1>For inquiries and booking information, contact <a href="mailto:newbodyelectric@gmail?Subject=" target="_top"><span class="email_link">newbodyelectric@gmail.com</span></a></h1>
+            <br>
+        </div>
+        <br>
+        <br>
+    </body>
+</html>
