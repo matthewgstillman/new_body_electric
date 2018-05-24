@@ -1,5 +1,5 @@
 Django==1.10
-Python==2.7.15
+Python==2.7.10
 dj-database-url==0.3.0
 dj-static==0.0.6
 gunicorn==19.6.0
