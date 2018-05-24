@@ -25,7 +25,7 @@ SECRET_KEY = 'oozh&ha4h9vkwonnswb(xvmijrckw327i&p!a-1*&0=^tnz=y+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['newbodyelectric.herokuapp.com']
 
 
 # Application definition
